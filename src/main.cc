@@ -11,7 +11,7 @@ namespace std
         unsigned int index;
 
         // Need to overload operator ==
-        inline bool operator==(const struct element& other) const
+        inline bool operator==(const element& other) const
         {
             return (this->image == other.image) && (this->index == other.index);
         }
