@@ -1,3 +1,6 @@
+#ifndef UNION_FIND_H
+#define UNION_FIND_H
+
 #include <iostream>
 #include <unordered_map>
 
@@ -60,3 +63,5 @@ public:
 
 
 };
+
+#endif // UNION_FIND_H
